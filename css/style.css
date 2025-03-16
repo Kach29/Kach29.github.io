@@ -899,8 +899,8 @@ textarea {
   font-size: 0.9em;
 }
 .project-details__img-container{
-  display: flex;
-  justify-content: center; /* Centre horizontalement */
-  align-items: center; /* Centre verticalement */
+  max-width: 800px; /* Largeur maximale du conteneur */
+  margin: 0 auto; /* Centre le conteneur horizontalement */
+  padding: 10px; /* Ajoute un peu d'espace autour de l'image */
 }
 /*# sourceMappingURL=style.css.map */

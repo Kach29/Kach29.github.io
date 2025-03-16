@@ -898,4 +898,9 @@ textarea {
   margin-top: 8px;
   font-size: 0.9em;
 }
+.project-details__img-container{
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+}
 /*# sourceMappingURL=style.css.map */

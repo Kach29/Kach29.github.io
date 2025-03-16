@@ -84,12 +84,12 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 1</h1>
+        <h1 class="heading-primary">Robot suiveur de ligne</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+            Un robot suiveur de ligne est un robot qui a pour but de suivre
+            sa ligne à l’aide des capteurs infrarouges. Il est très utilisé
+            dans les différents applications dans le domaine industriel. (Wikipedia)
           </p>
         </div>
 <!--         <div class="project-cs-hero__cta">
@@ -102,30 +102,91 @@
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
+              src="./assets/png/robot-suiveur-de-ligne.png"
               alt="Project Image"
               class="project-details__showcase-img"
             />
           </div>
           <div class="project-details__content-main">
             <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
+              <h3 class="project-details__content-title">Description du Projet</h3>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
+                Dans le cadre de ma troisième année de BUT GEII, j’ai participé à la conception et à la réalisation d’un <strong>robot suiveur de ligne</strong>, un projet qui allait bien au-delà d’un simple exercice académique. Ce robot, baptisé <strong>BZH</strong>, a été conçu pour participer au festival de robotique de Cachan, une compétition nationale réunissant des équipes de toute la France. L’objectif était de créer un robot capable de suivre une ligne noire sur un sol blanc tout en relevant des défis techniques complexes, comme la détection d’intersections, les arrêts programmés, et les virages à 90° et 180°.
               </p>
+          
+              <!-- Image avec légende -->
+              <figure class="project-details__img-container">
+                <img 
+                  src="./assets/png/robot-suiveur-de-ligne.png" 
+                  alt="Robot suiveur de ligne BZH" 
+                  class="project-details__img"
+                  loading="lazy"
+                />
+                <figcaption class="project-details__img-caption">
+                  Le robot BZH en action lors des tests à l'IUT.
+                </figcaption>
+              </figure>
+          
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
+                Le robot reposait sur une architecture modulaire, composée de deux cartes PCB principales :
+                <ul>
+                  <li><strong>La carte capteur</strong>, équipée de cinq capteurs infrarouges (QRE1113), permettait de détecter la ligne avec une précision millimétrique.</li>
+                  <li><strong>La carte mère</strong> intégrait le microcontrôleur Arduino Nano, un écran LCD I2C pour l’interface utilisateur, et divers capteurs supplémentaires (ultrason, flash, barre).</li>
+                </ul>
+                Le châssis, fourni par l’IUT, a été modifié pour améliorer sa stabilité et sa modularité. Des tiges filetées ont été ajoutées pour ajuster la hauteur de la carte capteur, permettant au robot de s’adapter à différentes surfaces.
               </p>
+          
+              <!-- Image avec légende -->
+              <figure class="project-details__img-container">
+                <img 
+                  src="./assets/png/robot-carte-capteur.png" 
+                  alt="Carte capteur du robot" 
+                  class="project-details__img"
+                  loading="lazy"
+                />
+                <figcaption class="project-details__img-caption">
+                  La carte capteur avec ses cinq capteurs infrarouges.
+                </figcaption>
+              </figure>
+          
+              <p class="project-details__desc-para">
+                Le code, développé en C++ sous Visual Studio Code avec l’extension PlatformIO, reposait sur une structure modulaire et efficace. Pour éviter des suites interminables de conditions "if", j’ai utilisé des <strong>masques binaires</strong> pour traiter les données des capteurs. Chaque capteur était représenté par un bit dans un nombre sur 8 bits, ce qui permettait une gestion rapide et lisible des états du robot.
+              </p>
+          
+              <!-- Vidéo avec légende -->
+              <figure class="project-details__video-container">
+                <video 
+                  src="./assets/videos/robot-en-action.mp4" 
+                  controls 
+                  class="project-details__video"
+                >
+                  Votre navigateur ne supporte pas la lecture de vidéos.
+                </video>
+                <figcaption class="project-details__video-caption">
+                  Le robot BZH en action lors de la compétition à Cachan.
+                </figcaption>
+              </figure>
+          
+              <p class="project-details__desc-para">
+                À Cachan, le robot a été mis à l’épreuve lors de plusieurs challenges. L’un des moments les plus intenses a été le challenge chronométré, où nous avons dû booster les servomoteurs pour gagner en vitesse, tout en ajustant le code pour éviter les sorties de piste. Grâce à ces ajustements, le robot a réussi à terminer plusieurs challenges, dont des virages à 90° et 180°, et des arrêts programmés.
+              </p>
+          
+              <p class="project-details__desc-para">
+                Le robot <strong>BZH</strong> a terminé à la <strong>20ème place</strong> du classement général et a remporté le <strong>prix du mérite</strong>. Ce projet m’a permis de développer des compétences clés en conception, programmation, et travail d’équipe.
+              </p>
+          
+              <!-- Image avec légende -->
+              <figure class="project-details__img-container">
+                <img 
+                  src="./assets/png/robot-competition.png" 
+                  alt="Robot en compétition à Cachan" 
+                  class="project-details__img"
+                  loading="lazy"
+                />
+                <figcaption class="project-details__img-caption">
+                  Le robot BZH lors de la compétition à Cachan.
+                </figcaption>
+              </figure>
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>

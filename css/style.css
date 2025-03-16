@@ -890,5 +890,12 @@ textarea {
     top: 27px;
   }
 }
-
+.project-details__img-caption,
+.project-details__video-caption {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-top: 8px;
+  font-size: 0.9em;
+}
 /*# sourceMappingURL=style.css.map */

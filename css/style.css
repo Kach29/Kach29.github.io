@@ -899,8 +899,9 @@ textarea {
   font-size: 0.9em;
 }
 .project-details__img-container{
-  max-width: 800px; /* Largeur maximale du conteneur */
-  margin: 0 auto; /* Centre le conteneur horizontalement */
-  padding: 10px; /* Ajoute un peu d'espace autour de l'image */
+  width: 100%;
+}
+.project-details__img-betweentext{
+  width: 60%;
 }
 /*# sourceMappingURL=style.css.map */

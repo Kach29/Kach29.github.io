@@ -902,7 +902,7 @@ textarea {
   width: 100%;
 }
 .project-details__img-betweentext{
-  width: 80%;
-  padding-right: 300px;
+  width: 60%;
+  padding: left 500px;
 }
 /*# sourceMappingURL=style.css.map */

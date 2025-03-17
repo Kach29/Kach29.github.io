@@ -903,6 +903,6 @@ textarea {
 }
 .project-details__img-betweentext{
   width: 60%;
-  align-self: center;
+  padding-left: 40%;
 }
 /*# sourceMappingURL=style.css.map */

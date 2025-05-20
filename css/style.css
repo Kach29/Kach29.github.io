@@ -934,5 +934,31 @@ textarea {
   font-size: 1rem;
   color: #333;
 }
+.competence__card {
+  background-color: #f9f9ff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.competence__title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #4a00e0;
+  margin-bottom: 1rem;
+}
+
+.competence__desc {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.swiper-pagination-bullet {
+  background: #4a00e0;
+}
 
 /*# sourceMappingURL=style.css.map */
